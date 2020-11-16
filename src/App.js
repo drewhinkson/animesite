@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import anime from './api/anime'
+import AnimeList from './AnimeList'
+import Navbar from './navbar'
+import Navtab from './navtab'
+class App extends React.Component {
+    state = {images: []}
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    componentDidMount(){
+        this.onTermSubmit('')
+    }
+    onTermSubmit = async () =>{
+
+      const  response = await anime.get(`/RecentReleaseEpisodes/1`, {
+      
+        })
+
+     console.log(response.data.anime);
+     this.setState ({
+        images:response.data.anime
+     })
+    
+    
 }
 
-export default App;
+    render(){
+        return (
+             <div>
+                 <Navbar />
+                 <Navtab />
+                   <AnimeList image ={this.state.images}/>
+             </div>
+        )
+    }
+}
+
+export default App

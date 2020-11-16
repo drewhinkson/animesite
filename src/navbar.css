@@ -1,0 +1,155 @@
+header {
+    margin-right: 0;
+    margin-left: 0;
+}
+.navbar-header {
+    float: left;
+}
+
+.navbar-nav > li, .navbar-nav {
+    float: left !important;
+}
+.navbar-nav {
+    float: left;
+    margin: 0;
+}
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.navbar-form {
+    width: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    border: 0;
+        border-top-color: currentcolor;
+        border-right-color: currentcolor;
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.navbar-right {
+    float: right !important;
+    margin-right: -15px;
+}
+.navbar-right {
+    float: right !important;
+}
+.navbar-inverse .navbar-form {
+    border-color: #101010;
+}
+
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+}
+.fa, .fas {
+    font-weight: 900;
+}
+.navbar-nav a {
+    color: #fff !important;
+    font-size: 1.3em !important;
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left: -15px;
+}
+.navbar .navbar-brand {
+    display: block;
+    height: 100%;
+    padding: 15px 2em 8px 0;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+}
+a {
+    background-color: transparent;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.fa, .fas {
+
+    font-weight: 900;
+
+}
+.fa, .far, .fas {
+
+    font-family: "Font Awesome 5 Free";
+
+}
+.fa, .fab, .fad, .fal, .far, .fas {
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+
+}
+* {
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+
+    color: #fff;
+
+}
+body {
+    background:  repeat scroll center top #eeeeee;
+    font-family: Sans-Serif;
+}
+.navbar-inverse .navbar-nav > li > a {
+
+    color: #9d9d9d;
+
+}
+.navbar-nav > li > a {
+
+    line-height: 20px;
+
+}
+.navbar-nav a {
+
+    color: #fff !important;
+    font-size: 1.3em !important;
+
+}
+a {
+
+    color: #337ab7;
+
+}
+.nav {
+
+    list-style: none;
+
+}
